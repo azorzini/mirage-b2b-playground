@@ -1,5 +1,8 @@
 # Mirage b2b playground
 
+![GitHub Logo](images/playgroung1.jpeg)
+![GitHub Logo](images/playgroung2.jpeg)
+
 This is a copy of ember mirage playground created for this training course
 
 [→ View the training on YouTube](https://www.youtube.com/watch?v=lfDBb0Ar-rc)
