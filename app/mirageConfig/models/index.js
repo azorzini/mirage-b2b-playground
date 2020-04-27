@@ -5,5 +5,5 @@ export default {
   certificate: Model,
   endpoint: Model,
   messageFlow: Model,
-  messageFlowConfig: Model
+  messageFlowConfig: Model,
 };

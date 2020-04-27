@@ -1,3 +1,4 @@
+
 export default function routes() {
   this.namespace =
     'partnermanager/partners/api/v1/organizations/TEST_ORG_ID/environments/TEST_ENV_ID/';

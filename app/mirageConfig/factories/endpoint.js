@@ -58,6 +58,7 @@ export default {
       endpointRole: 'RECEIVE',
     }),
     receive_ack: trait({
+      name: 'HTTP send-ack 1',
       endpointRole: 'RECEIVE_ACK',
     }),
     send: trait({
@@ -68,6 +69,7 @@ export default {
     }),
     //Trait to create an as2
     as2: trait({
+      name: 'AS2 receive 3',
       endpointType: 'AS2',
       endpointTypeId: 'AB4C76B7-01B0-4BBA-8F04-31C1487A3708',
       config: {
@@ -102,7 +104,8 @@ export default {
       },
     }),
     sftp: trait({
-      endpointType: 'sftp',
+      name: 'SFTP receive 4',
+      endpointType: 'SFTP',
       endpointTypeId: '3BCC65E5-040B-47EB-8FC7-27C89225F1BC',
       config: {
         path: '/',
